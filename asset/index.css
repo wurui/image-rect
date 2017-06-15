@@ -46,12 +46,18 @@
   color: #fff;
 }
 .image-rect-fulllayer .image-button button {
+  box-shadow: 0 0 3px #000;
   outline: none;
   border-radius: 50%;
+  font-size: 20px;
   width: 32px;
   height: 32px;
+  line-height: 32px;
+  padding: 0;
   border: none;
-  background: radial-gradient(rgba(100, 100, 100, 0.5), #c8c8c8);
+  background: radial-gradient(#646464, #c8c8c8);
+  text-shadow: 0 0 1px #000;
+  color: #333;
 }
 .image-rect-fulllayer .top-button {
   position: absolute;
@@ -77,4 +83,12 @@
   display: inline-block;
   width: 60px;
   text-align: center;
+}
+.image-rect-fulllayer .mainimage {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.image-rect-fulllayer .mainimage.transition {
+  transition: all .3s;
 }

@@ -12,11 +12,13 @@
                 </div>
                 <div class="image-box"><button class="J_touchTigger touch-trigger"></button></div>
                 <div class="image-button J_buttons">
+                    <button data-role="rotate">&#8635;</button>
+                    &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
                     <button data-role="minus">-</button>
-                    &#160;&#160;&#160;&#160;
                     <span class="J_scale scale-index">100%</span>
-                    &#160;&#160;&#160;&#160;
                     <button data-role="plus">+</button>
+
+
                 </div>
             </div>
         </div>
