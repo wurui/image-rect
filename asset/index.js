@@ -241,7 +241,7 @@ define(['zepto','oxjs'], function (undef,OXJS) {
                         ctx.drawImage(im, -sx / scalex, -sy / scalex, im.width, im.height);
                         //
                         if (typeof _this.callback == 'function') {
-                            _this.callback(canvas.toDataURL());
+                            _this.callback(canvas.toDataURL('image/jpeg',1));
                         } else {
 
                         }
